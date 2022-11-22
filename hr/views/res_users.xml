@@ -182,6 +182,11 @@
                             </group>
                         </group>
                     </page>
+                    <page name="documents" string="Documents">
+                        <group>
+                            <field name="contract_document" filename="contract_document_name"/>
+                        </group>    
+                    </page>
                 </notebook>
             </field>
         </record>

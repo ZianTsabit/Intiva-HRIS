@@ -61,6 +61,8 @@ class User(models.Model):
     hr_presence_state = fields.Selection(related='employee_id.hr_presence_state')
     last_activity = fields.Date(related='employee_id.last_activity')
     last_activity_time = fields.Char(related='employee_id.last_activity_time')
+    contract_document = fields.Binary(string="contract_document",related='employee_id.contract_document', readonly=False, related_sudo=False)
+    contract_document_name = fields.Char(string="contract_document_name",related='employee_id.contract_document_name', readonly=False, related_sudo=False)
 
     can_edit = fields.Boolean(compute='_compute_can_edit')
 
