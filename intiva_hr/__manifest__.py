@@ -4,11 +4,10 @@
 {
     'name': 'Intiva Employees',
     'version': '1.1',
-    'category': 'Human Resources/Employees',
+    'category': 'uncathegorized',
     'sequence': 95,
     'summary': 'Centralize employee information',
     'description': "",
-    'website': 'https://www.odoo.com/page/employees',
     'images': [
         'images/hr_department.jpeg',
         'images/hr_employee.jpeg',
